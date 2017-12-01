@@ -1,12 +1,18 @@
 # DeepInsight
+This is a package that helps to extract useful information from short videos
+
+# Dependencies
+- OpenCV
+- Dlib
+- Pytube
+
 
 Setup the dependencies by adding the corresponding directories to $PYTHONPATH 
 ## 1. Object and Scene Recognition Dependencies
-
 ### 1.1 caffe
 The Makefile.conf I used for caffe compilation is in ./support
 ```
-export PYTHONPATH=/media/sdf/caffe_places365/python:$PYTHONPATH
+export PYTHONPATH=/path/to/caffe/python:$PYTHONPATH
 ```
 - (a) Caffe Installation
 
