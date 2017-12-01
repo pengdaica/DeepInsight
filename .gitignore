@@ -1,0 +1,11 @@
+*.pyc
+*.avi
+*.json
+*.bz2
+*.zip
+*.t7
+*.jpg
+*.png
+
+*.caffemodel
+torch_module/peng/
